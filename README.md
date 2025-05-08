@@ -19,7 +19,7 @@ HomoCount/
 │   └── ...
 ├── .gitignore       # Git ignore file
 ├── requirements.txt # Backend Python dependencies
-└── README.md        # This file
+└── README.md 
 ```
 
 ## Prerequisites
