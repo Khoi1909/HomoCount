@@ -1,0 +1,7 @@
+Flask
+opencv-python
+ultralytics
+torch
+torchvision
+Flask-Cors
+# Add other dependencies as needed, e.g., for specific GPU drivers if required by torch
