@@ -38,7 +38,7 @@ HomoCount/
 1.  **Clone the Repository (if applicable)**
     If you haven't already, clone the repository to your local machine:
     ```bash
-    git clone <https://github.com/Khoi1909/HomoCount.git>
+    git clone https://github.com/Khoi1909/HomoCount.git
     cd HomoCount
     ```
 
@@ -60,6 +60,19 @@ HomoCount/
         pip install -r requirements.txt
         ```
         *(Note: This includes PyTorch. If GPU acceleration doesn't work, you might need to reinstall PyTorch with a specific CUDA version matching your system. See [PyTorch Get Started](https://pytorch.org/get-started/locally/) for details.)*
+
+    *   **GPU Check (Optional):** To verify if PyTorch detects your CUDA-enabled GPU correctly after installing dependencies, run:
+        ```bash
+        python check_torch_gpu.py
+        ```
+        Look for output similar to:
+        ```
+        PyTorch version: ...
+        CUDA available: True
+        CUDA version (compiled with): ...
+        Device name: NVIDIA GeForce ...
+        ```
+        If `CUDA available` is `False`, PyTorch cannot detect your GPU, and the backend will fall back to CPU processing.
 
 4.  **Frontend Setup (Node.js Dependencies)**
     *   Navigate to the frontend directory:
