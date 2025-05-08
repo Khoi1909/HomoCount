@@ -38,7 +38,7 @@ HomoCount/
 1.  **Clone the Repository (if applicable)**
     If you haven't already, clone the repository to your local machine:
     ```bash
-    git clone <your-repository-url>
+    git clone <https://github.com/Khoi1909/HomoCount.git>
     cd HomoCount
     ```
 
